@@ -1,0 +1,119 @@
+
+.home-page {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color:black;
+  color: #fbe0e0;
+  padding: 20px;
+}
+
+
+.banner {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnPqivqRagS5iVac6BBmCqMhoGfXgWxOkmg&usqp=CAU');
+ 
+  background-size: cover;
+  background-position: center;
+  color: lightcoral;
+  padding: 100px 0;
+  font-size: 20px;
+}
+
+
+.featured-books {
+  margin: 40px 0;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.book-card {
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  background-color: #ddd;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-card img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.book-card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.why-choose-us {
+  background-color:navajowhite;
+  color:black;
+  padding: 40px;
+}
+
+
+.customer-testimonials {
+  margin: 40px 0;
+}
+
+.testimonial {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.customer-name {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+
+.latest-news {
+  margin: 40px 0;
+}
+
+.news-article {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.cta {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2980b9;
+}
